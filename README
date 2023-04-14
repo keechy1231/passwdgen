@@ -1,0 +1,14 @@
+Simple Bash script that you can use to create wordlists for bruteforcing
+
+Default function:
+
+Runs a crunch command that accepts three arguments, 'WORD' 'YEAR' 'Additional Years'
+
+Example:
+
+./passwdgen.sh Spring 2022 5
+
+This will make a wordlist with iterations of Spring2022^ (^ will add different symbols in the crunch command) 
+The scipt will then complete the same crunch command for 5 more years. 
+
+Made for use on the PNPT exam based of Heaths teaching methods for simple password guessing that should be attempted.  
